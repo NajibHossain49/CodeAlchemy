@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Align Items Example</title>
+<style>
+  .container {
+    display: flex;
+    border: 1px solid #000;
+    height: 200px;
+  }
+  .item {
+    width: 50px;
+    background-color: #f0f0f0;
+    margin: 5px;
+  }
+  .stretch { align-items: stretch; }
+  .start { align-items: flex-start; }
+  .end { align-items: flex-end; }
+  .center { align-items: center; }
+  .baseline { align-items: baseline; }
+</style>
+</head>
+<body>
+
+<div class="container stretch">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+</div>
+
+<div class="container start">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+</div>
+
+<div class="container end">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+</div>
+
+<div class="container center">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+</div>
+
+<div class="container baseline">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+</div>
+
+</body>
+</html>
